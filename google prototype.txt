@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container{
+            
+            height: 100vh;
+            min-height: 100vh;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+
+            height: 60%;
+            width: 30%;
+            border: 1px solid rgb(131, 129, 129);
+            min-height: 500px;
+            min-width: 400px;
+            border-radius: 8px;
+        }
+
+        .inner-box{
+
+            width: 80%;
+            /* border: 2px solid black; */
+            height: 85%;
+            margin: auto;
+        }
+
+        .inner-box-1{
+
+            height: 40%;
+            /* border: 2px solid red; */
+        }
+
+        .inner-box-2{
+
+            height: 60%;
+            /* border: 2px solid green; */
+        }
+        input{
+            width: 100%;
+            padding: 15px 4px;
+            border: 1px solid rgb(131, 129, 129);;
+        }
+
+        .button{
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 34px;
+        }
+
+        .button a{
+
+            text-decoration: none;
+            color: rgb(26,115,232);
+            font-size: 17px;
+            font-family: sans-serif;
+        }
+
+        button{
+
+            padding: 13px;
+            width: 25%;
+            border: none;
+            background-color: rgb(26,115,232);
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        a{
+            color: rgb(26,115,232);
+            text-decoration: none;
+            font-weight: bold;
+            font-family:sans-serif;
+            font-size: 14px;
+        }
+        p{
+            margin: 30px 0px;
+            font-size: 14px;
+            font-family: sans-serif;
+            
+        }
+
+        .Learn{
+
+            position: relative;
+            bottom: 25px;
+        }
+
+        .inner-box-1{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .inner-box-1 img{
+
+            width: 100px;
+            height: 40px;
+            margin: 10px 0px;
+        }
+
+        .inner-box-1 h3{
+
+            font-size: 25px;
+        }
+
+        .inner-box-1 p {
+
+             font-size: 15px;
+        }
+
+        .links{
+
+            position: relative;
+            top: 20px;
+        }
+.ram{
+    width: 10px;
+    height: 10px;
+    background-origin: padding-box;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="box">
+
+            <div class="inner-box">
+
+                <div class="inner-box-1">
+                    <img src="https://th.bing.com/th/id/R.4aa108082e7d3cbd55add79f84612aaa?rik=I4dbPhSe%2fbHHSg&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-google-logo-2015brandlogobrand-logoiconssymbolslogosgoogle-6815229372333mqrr.png&ehk=ewmaCOvP0Ji4QViEJnxSdlrYUrTSTWhi8nZ9XdyCgAI%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <h3>Sign in</h3>
+                    <p>Use your Google Account</p>
+                </div>
+                <div class="inner-box-2">
+                    <input type="text" placeholder="Enter Your Email"><br>
+                    <a href="">Forgot email</a>
+                    <div class="links">
+                        <p>Not your computer? Use Guest mode to sign in privately.</p>
+                        <a href="" class="Learn">Learn more</a>
+                    </div>
+                    <div class="button">
+                        <a href="">Create account</a>
+                        <button>Next</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="ram">
+            
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
